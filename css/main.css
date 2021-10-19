@@ -1,0 +1,206 @@
+/* Main body font sizes*/
+body {
+
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+/* Contact Address */
+.contact p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Container */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+footer {
+    height: 50px;
+    border-top: 3px solid #eee;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color: #77a466;
+    font-size: 14px;
+}
+
+/* Header Nav-bar */
+
+header nav {
+
+    float: right;
+    padding: 46px 0;
+
+}
+
+/* Header CSS */
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+
+
+
+
+/* Heading sizes and properties */
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* Greetings section ,About section */
+
+.greetings,
+.about {
+	margin: 0 auto;
+	clear: both;
+}
+
+
+/* Menu items */
+
+.menu {
+
+    list-style: none;
+    padding:0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #77a466;
+}
+
+
+/* About section columns */
+.left-col,
+.center-col,
+.right-col {
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+.left-col h3 {
+
+    padding: 10px 0;
+}
+
+.center-col{
+
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+
+}
+
+.center-col h3,
+.right-col h3 {
+	padding: 10px 30px;
+}
+
+
+
+
+
+
+/* Paragraph */
+p {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 30px;
+}
+
+
+
+/* Main image */
+.main-img img {
+
+    border-bottom: 3px solid #77a466;
+}
+
+
+
+/* Review column */
+.review {
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/* *Title */
+.title{
+
+    height:auto;
+    float:left;
+    
+}
+.title h2 {
+
+    text-align: left;
+    padding: 5px 0;
+    color: #77a466;
+}
+.title p{
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+
+}
